@@ -25,14 +25,14 @@ It showcases my journey as a CSE undergraduate, competitive programmer, and modu
 ## 🚀 Deployment
 This portfolio is hosted using **GitHub Pages**.  
 You can view the live site here:  
-👉 [Live Demo](https://username.github.io/portfolio) *(replace with your actual link once deployed)*
+👉 [Live Demo](https://mdfahimhassan.github.io/PersonalPortfolio/) 
 
 ---
 
 ## 📬 Contact
 - **Email:** mdfahimhassanbd7@gmail.com  
 - **Location:** Dhaka, Bangladesh  
-- **LinkedIn:** [Md. Fahim Hassan](https://www.linkedin.com/in/md-fahim-hassan)
+- **LinkedIn:** [Md. Fahim Hassan](https://www.linkedin.com/in/md-fahim-hassan-042110386/)
 
 ---
 
