@@ -1,2 +1,40 @@
-# PersonalPortfolio
-A handcrafted personal portfolio built from scratch with HTML, CSS, and JS. Features a 🌌Cosmic theme, 🧠modular sections (About, Skills, Projects, Contact), and 📫a Google Sheets–powered contact form. Showcasing clean code, competitive programming spirit, and premium design clarity.
+# Fahim Hassan — Personal Portfolio
+
+**Code is my canvas — logic is my brush.**
+
+This is my handcrafted personal portfolio website, built from scratch with HTML, CSS, and JavaScript.  
+It showcases my journey as a CSE undergraduate, competitive programmer, and modular app builder.
+
+---
+
+## ✨ Features
+- Hero section with branding and profile
+- About, Skills, and Projects sections
+- Contact form integrated with Google Sheets backend (Apps Script)
+- Cosmic/starry theme with clean, modular design
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Google Apps Script (for contact form data storage)
+- **Design:** Responsive layout, custom styling, starry night aesthetic
+
+---
+
+## 🚀 Deployment
+This portfolio is hosted using **GitHub Pages**.  
+You can view the live site here:  
+👉 [Live Demo](https://username.github.io/portfolio) *(replace with your actual link once deployed)*
+
+---
+
+## 📬 Contact
+- **Email:** mdfahimhassanbd7@gmail.com  
+- **Location:** Dhaka, Bangladesh  
+- **LinkedIn:** [Md. Fahim Hassan](https://www.linkedin.com/in/md-fahim-hassan)
+
+---
+
+## 📜 License
+This project is open-source. Feel free to explore, learn, and adapt — but please credit when reusing.
