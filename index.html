@@ -28,25 +28,28 @@
 
   <main>
     <!-- Hero -->
-    <section id="hero" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <h1>Code is my canvas — logic is my brush</h1>
-          <p>Undergraduate CSE student at BRAC University. I build polished, modular apps and solve problems with algorithmic clarity.</p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn primary">View projects</a>
-            <a href="#contact" class="btn ghost">Get in touch</a>
-          </div>
-        </div>
-        <div class="hero-right">
-  <div class="profile-wrapper">
-    <div class="orb-glow"></div>
-    <img src="assets/profile.jpg" alt="Fahim" class="profile-pic" />
-  </div>
-</div>
+<section id="hero" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>
+        <span id="typewriter"></span><span class="cursor">_</span>
+      </h1>
+      <p>
+        Undergraduate CSE student at BRAC University. I build polished, modular apps and solve problems with algorithmic clarity.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View projects</a>
+        <a href="#contact" class="btn ghost">Get in touch</a>
       </div>
-
-    </section>
+    </div>
+    <div class="hero-right">
+      <div class="profile-wrapper">
+        <div class="orb-glow"></div>
+        <img src="assets/profile.jpg" alt="Fahim" class="profile-pic" />
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- About -->
     <section id="about" class="section">
@@ -100,41 +103,49 @@
 
     <!-- Projects -->
     <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-thumb"><img src="assets/corelytics.ico" alt="Corelytics Logo" /></div>
-            <div class="project-content">
-              <h3>Corelytics</h3>
-              <p>Modular analytics concept with premium UI and clean architecture.</p>
-              <div class="tags">
-                <span>Java</span><span>UI/UX</span><span>Modular</span>
-              </div>
-              <div class="links">
-                <a href="#" class="btn small">Demo</a>
-                <a href="#" class="btn small ghost">GitHub</a>
-              </div>
-            </div>
-          </article>
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
 
-          <article class="project-card">
-            <div class="project-thumb"><img src="assets/algodeck.png" alt="AlgoDeck Logo" /></div>
-            <div class="project-content">
-              <h3>AlgoDeck (Upcoming)</h3>
-              <p>Competitive programming companion—templates, test cases, topic tracking.</p>
-              <div class="tags">
-                <span>Python</span><span>CP</span><span>Desktop</span>
-              </div>
-              <div class="links">
-                <a href="#" class="btn small">Demo</a>
-                <a href="#" class="btn small ghost">GitHub</a>
-              </div>
-            </div>
-          </article>
+      <!-- Corelytics Card -->
+      <article class="project-card">
+        <div class="project-thumb"><img src="assets/corelytics.ico" alt="Corelytics Logo" /></div>
+        <div class="project-content">
+          <h3>Corelytics</h3>
+          <p>Modular analytics concept with premium UI and clean architecture.</p>
+          <div class="tags">
+            <span>Java</span><span>UI/UX</span><span>Modular</span>
+          </div>
+          <div class="links">
+            <a href="javascript:void(0)" class="btn small" onclick="openDemoModal()">Demo</a>
+            <a href="https://github.com/your-username/corelytics" class="btn small ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <!-- AlgoDeck Card -->
+      <article class="project-card">
+        <div class="project-thumb"><img src="assets/algodeck.png" alt="AlgoDeck Logo" /></div>
+        <div class="project-content">
+          <h3>AlgoDeck (Upcoming)</h3>
+          <p>Competitive programming companion—templates, test cases, topic tracking.</p>
+          <div class="tags">
+            <span>Python</span><span>CP</span><span>Desktop</span>
+          </div>
+          <div class="links">
+            <a href="#" class="btn small">Demo</a>
+            <a href="#" class="btn small ghost">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Corelytics Demo Modal -->
+
+
+  </div>
+</section>
 
     <!-- Contact -->
     <section id="contact" class="section">
@@ -197,5 +208,16 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
   }
 });
 </script>
+<script src="script.js"></script>
 </body>
+<div id="demoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeDemoModal()">&times;</span>
+    <h3>Corelytics Demo</h3>
+    <video width="100%" controls>
+      <source src="assets/Corelytics-demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 </html>
