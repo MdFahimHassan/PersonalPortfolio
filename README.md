@@ -4,6 +4,12 @@ A personal portfolio site for **Md. Fahim Hassan**, a Computer Science & Enginee
 
 **Live site:** _add your deployed URL here_
 
+## Preview
+
+<!-- Replace with an actual screenshot: drag an image into this README on GitHub.com,
+     or add it to /public and reference it like: ![Portfolio preview](/public/preview.png) -->
+![Portfolio preview](./public/preview.png)
+
 ## Tech stack
 
 | Layer       | Choice |
@@ -85,4 +91,6 @@ Remember to add the same environment variables from `.env.example` in your hosti
 
 ## License
 
-This is a personal portfolio. Feel free to reference the structure/approach, but please don't republish the content or images as your own.
+The code in this repository is licensed under the [MIT License](./LICENSE) — feel free to use it as a reference or starting point for your own portfolio.
+
+This does **not** extend to personal content: my name, bio, photo, resume/CV details, and project descriptions are not licensed for reuse — please swap those out with your own if you fork this.
