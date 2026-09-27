@@ -2,7 +2,7 @@
 
 A personal portfolio site for **Md. Fahim Hassan**, a Computer Science & Engineering student at BRAC University. Built as a full-stack [TanStack Start](https://tanstack.com/start) app with a hand-crafted "deep space / terminal" aesthetic — animated starfield background, glassmorphism cards, and a monospace-accented UI — showcasing education, experience, skills, and projects.
 
-**Live site:** https://personal-portfolio-rho-lac-91.vercel.app/
+**Live site:** https://personal-portfolio-legacy110.vercel.app/
 
 ## Preview
 
